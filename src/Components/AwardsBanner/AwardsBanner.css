@@ -1,0 +1,39 @@
+.awardsSection{
+    @apply w-full pt-[89px] pl-[82px] bg-[url("/images/background1.png")] bg-center bg-cover bg-no-repeat flex 
+}
+
+.awardsInfo{
+    @apply pt-[25px] pl-[22px] pr-[56px] border-r border-[#E2DCC8] border-opacity-30
+}
+
+.awardsInfo h1{
+    @apply font-helvetica font-medium text-[76px] text-brandColors leading-[85%] flex gap-[93px]
+}
+
+.awardsInfo li{
+    @apply font-helvetica font-normal text-brandColors text-[15px] leading-[130%]
+}
+
+.awardsInfo h2{
+    @apply font-helvetica font-medium text-brandColors text-[76px] ml-[153px] leading-[85%]
+}
+
+.awardsInfo p{
+    @apply w-[380px] mt-12 font-helvetica font-normal text-[15px] text-brandColors leading-[130%]
+}
+
+.allAwards{
+    @apply pt-[30px] 
+}
+
+.allAwards h2{
+    @apply pl-[27px] font-helvetica font-medium text-[40px] text-brandColors leading-[120%]
+}
+
+.allAwards h2 span{
+    @apply text-[#B66449]
+}
+
+.awardsCart{
+    @apply mt-[75px] mb-[70px]
+}

@@ -1,0 +1,43 @@
+.homeBannerSection{
+    @apply w-full pt-[89px] pl-[82px] bg-[url("/images/background1.png")] bg-center bg-cover bg-no-repeat flex justify-between
+}
+
+.homeBanerInfo{
+    @apply mt-[27px] ml-6 font-helvetica  text-brandColors
+}
+
+.homeBanerInfo h1{
+    @apply flex gap-[167px] text-[76px] leading-[85%] font-medium
+}
+
+.homeBanerInfo p{
+    @apply font-normal text-[15px] leading-[130%]
+}
+
+.homeBanerInfo h2{
+    @apply text-[76px] leading-[85%] font-medium
+}
+
+.homeBanerInfo h2 span{
+    @apply ml-[107px]
+}
+
+.homeBanerInfo p{
+    @apply w-[380px] mt-12 font-normal text-[15px] leading-[130%] m-auto
+}
+
+.homeCounters{
+    @apply flex  justify-between mt-[260px]
+}
+
+.homeBannerGrid{
+    @apply relative
+}
+
+.homeBannerGrid .images{
+    @apply absolute top-0 flex pt-[175px] pl-[29px]
+}
+
+.homeBannerGrid .images img{
+    @apply w-[609px]
+}

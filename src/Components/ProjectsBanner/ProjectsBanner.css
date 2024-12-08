@@ -1,0 +1,23 @@
+.projectsSection{
+    @apply w-full pt-[89px] pl-[82px] bg-[url("/images/background1.png")] bg-center bg-cover bg-no-repeat flex 
+}
+
+.projectsInfo{
+    @apply w-[639px] pb-[219px] h-full border-r border-[#E6E3D9] border-opacity-30
+}
+
+.projectsInfo h1{
+    @apply font-helvetica font-medium text-[76px] text-brandColors pt-[29px] ml-[22px]  leading-[85%]
+}
+
+.projectsImages{
+    @apply pt-[26px] pl-[26px]
+}
+
+.projectsBar{
+    @apply mt-[131px] 
+}
+
+.projectsBar button{
+    @apply w-full flex justify-start py-2 pl-[27px] border-t border-[#E6E3D9] border-opacity-30 font-helvetica font-normal text-[22px] text-brandColors leading-[160%] text-opacity-50 focus-within:text-opacity-100 cursor-pointer
+}

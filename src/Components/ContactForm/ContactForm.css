@@ -1,0 +1,7 @@
+form{
+    @apply w-[495px] flex flex-col gap-[64px] items-start
+}
+
+form input{
+    @apply py-[10px] w-full bg-transparent border-b font-helvetica font-normal text-lg text-brandColors leading-[35%] outline-0
+}

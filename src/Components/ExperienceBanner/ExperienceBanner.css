@@ -1,0 +1,31 @@
+.experienceSection{
+    @apply w-full pt-[89px] pl-[82px] bg-[url("/images/background2.png")] bg-center bg-cover bg-no-repeat flex justify-between
+}
+
+.experienceHead{
+    @apply pt-[23px] ml-[21px] pr-[31px] border-r border-opacity-30 border-[#E2DCC8]
+}
+
+.experienceHead h1{
+    @apply font-helvetica font-medium text-[76px] text-brandColors leading-[85%] flex gap-[79px]
+}
+
+.experienceHead li{
+    @apply font-helvetica font-normal text-[15px] text-brandColors leading-[130%] 
+}
+
+.experienceHead h2{
+    @apply font-helvetica font-medium text-[76px] text-brandColors leading-[85%] ml-[77px]
+}
+
+.experienceHead p{
+    @apply w-[380px] mt-12 font-helvetica font-normal text-[15p] text-brandColors leading-[130%]
+}
+
+.experienceHead button{
+    @apply mt-[104px] ml-[390px] w-[196px] h-[52px] bg-[#B66449] rounded-full duration-200 will-change-transform text-brandColors font-helvetica font-normal text-lg
+}
+
+.allExperience{
+    @apply w-full mt-[21px] mb-[157px]
+}

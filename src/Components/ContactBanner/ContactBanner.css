@@ -1,0 +1,43 @@
+.contactSection{
+    @apply w-full pt-[89px] pl-[82px] bg-[url("/images/background1.png")] bg-center bg-cover bg-no-repeat flex 
+}
+
+.contactHead{
+    @apply pt-[22px]  border-r border-[#E6E3D9] border-opacity-30
+}
+
+.contactHead h1{
+    @apply pl-[22px] font-helvetica font-medium text-[76px] text-brandColors leading-[85%] flex gap-[200px]
+}
+
+.contactHead li{
+    @apply pl-[28px] font-helvetica font-normal text-[15px] text-brandColors leading-[130%]
+}
+
+.contactLink{
+    @apply mt-[184px] w-[638px] flex flex-col 
+}
+
+.contactLink a{
+    @apply w-full py-[10px] pl-[27px] border-t border-brandColors font-helvetica font-normal text-[22px] text-brandColors
+}
+
+.copyRight{
+    @apply mt-[345px] pb-[30px] font-helvetica font-normal text-[15px] text-brandColors leading-[130%]
+}
+
+.contactPart{
+    @apply pt-[23px] pl-[27px]
+}
+
+.contactPart h3{
+    @apply w-[514px] font-helvetica font-medium text-[40px] text-brandColors leading-[120%] 
+}
+
+.contactPart h3 span{
+    @apply text-[#B66449]
+}
+
+.contactFormArea{
+    @apply mt-[92px] flex items-center gap-[193px]
+}

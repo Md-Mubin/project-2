@@ -1,0 +1,59 @@
+.testimonialSection{
+    @apply w-full pt-[89px] pl-[82px] bg-[url("/images/background1.png")] bg-center bg-cover bg-no-repeat flex 
+}
+
+.testimonial_extrabg{
+    @apply absolute bottom-0 h-full
+}
+
+.testimonialsHead{
+    @apply h-full font-helvetica text-brandColors pt-[25px] pl-[25px] pr-[13px] pb-[78px] border-r border-[#E6E3D9] border-opacity-30
+}
+
+.testimonialsHead h1{
+    @apply font-medium text-[78px] leading-[85%]
+}
+
+.testimonialsHead li{
+    @apply font-normal text-[15px] leading-[130%]
+}
+
+.testimonialsHead h2{
+    @apply font-medium text-[78px] ml-[244px] leading-[85%]
+}
+
+.testimonialsHead h2 span{
+    @apply ml-[-189px]
+}
+
+.testimonialsLogo{
+    @apply w-[600px] flex flex-wrap items-center gap-[155px]  mt-[313px]
+}
+
+.testimonialInfo h2{
+    @apply w-[514px] font-helvetica font-medium text-[40px] text-brandColors leading-[120%] mt-[38px] ml-[26px]
+}
+
+.testimonialInfo h2 span{
+    @apply text-[#B66449]
+}
+
+.testimonialReviews{
+    @apply ml-[339px] mt-[224px] flex gap-[100px]
+}
+
+.testimonialReviews p{
+    @apply w-[380px] font-helvetica font-normal  text-[15px] text-brandColors leading-[130%]
+}
+
+.testimonialInfo h5{
+    @apply ml-[540px] mt-[49px] font-helvetica font-normal text-[22px] text-brandColors leading-[35%]
+}
+
+.testimonialInfo h6{
+    @apply ml-[540px] mt-2 font-helvetica font-normal text-[15px] text-brandColors leading-[130%]
+}
+
+.testimonialButton{
+    @apply mt-[159px]
+}

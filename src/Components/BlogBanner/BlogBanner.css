@@ -1,0 +1,47 @@
+.blogSection{
+    @apply w-full pt-[89px] pl-[82px] bg-[url("/images/background1.png")] bg-center bg-cover bg-no-repeat flex
+}
+
+.blogHead{
+    @apply pt-[28px] border-r border-opacity-30 border-[#E6E3D9]
+}
+
+.blogHead h1{
+    @apply pl-[22px] font-helvetica font-medium text-brandColors text-[76px] leading-[85%]
+}
+
+.blogHead li{
+    @apply pl-[22px] font-helvetica font-normal text-brandColors text-[15px] leading-[130%]
+}
+
+.blogHead h2{
+    @apply pl-[233px] font-helvetica font-medium text-brandColors text-[76px] leading-[85%]
+}
+
+.blogBars{
+    @apply w-full mt-[150px]
+}
+
+.blogBars button{
+    @apply w-[638px] flex justify-start py-2 pl-[27px] border-t border-[#E6E3D9] border-opacity-30 font-helvetica font-normal text-[22px] text-brandColors leading-[160%] text-opacity-50 focus-within:text-opacity-100 cursor-pointer
+}
+
+.blogPart{
+    @apply pt-10 pl-[22px] pr-[92px] w-full font-helvetica text-brandColors
+}
+
+.blogMian{
+    @apply flex gap-[390px] 
+}
+
+.blogMian h4{
+    @apply font-normal text-[15px] leading-[130%] opacity-60
+}
+
+.blogMian p{
+    @apply w-[377px] font-normal text-[15px] leading-[130%]
+}
+
+.blogImages{
+    @apply w-full h-[689px] bg-[#c4c4c4] mt-[55px] mb-[40px]
+}

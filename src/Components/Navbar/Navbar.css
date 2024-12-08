@@ -1,0 +1,39 @@
+nav{
+    @apply w-full flex border-b border-t border-[#E6E3D9] absolute top-0 border-opacity-30 z-50
+}
+
+.pageP{
+    @apply w-[82px] h-[89px] flex items-center border-r border-[#E6E3D9] border-opacity-30
+}
+
+.pageP li{
+    @apply px-[29px] font-helvetica font-normal text-[38px] text-brandColors 
+}
+
+.navSocials{
+    @apply flex items-center gap-[33px] pl-[32px] pr-[480px]
+}
+
+.navSocials a{
+    @apply text-xl text-brandColors
+}
+
+.navItemsRow{
+    @apply w-full flex justify-between items-center pl-[26px] pr-[34px] border-l border-[#E6E3D9]  border-opacity-30
+}
+
+.navItems{
+    @apply flex gap-16 items-center
+}
+
+.navItems a{
+    @apply font-helvetica font-normal text-[14px] text-brandColors duration-200 
+}
+
+.navItems a:hover{
+    @apply text-[#B66449]
+}
+
+.numberNav li{
+    @apply font-helvetica font-normal text-[15px] text-brandColors 
+}
